@@ -1,0 +1,21 @@
+<div class="project-card">
+  <h2>AI Resume Builder – ATS‑Optimized Resume Generator</h2>
+  <p>
+    An intelligent web application that transforms a user’s experience and target job description
+    into tailored, ATS‑friendly resumes in seconds using large language models.
+  </p>
+  <ul>
+    <li>Built a Next.js frontend with a step-by-step resume creation flow</li>
+    <li>Implemented a FastAPI backend that uses LLMs to optimize bullets and match job keywords</li>
+    <li>Added ATS scoring, multiple templates, and PDF/DOCX export</li>
+    <li>Containerized with Docker and deployed with CI/CD</li>
+  </ul>
+  <p>
+    <strong>Stack:</strong> Next.js • FastAPI • PostgreSQL • Docker • LLM APIs • CI/CD
+  </p>
+  <div style="margin-top: 12px;">
+    <a href="https://github.com/vijay455-4444545/ai-resume-builder" target="_blank" rel="noopener">GitHub</a>
+    ·
+    <span>Live Demo: Coming soon</span>
+  </div>
+</div>
