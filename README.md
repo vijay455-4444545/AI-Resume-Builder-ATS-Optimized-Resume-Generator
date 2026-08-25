@@ -55,4 +55,4 @@ A web app where users:
 
 ## GitHub
 
-- Repo: github.com/vijay455-4444545/AI-Resume-Builder-ATS-Optimized-Resume-Generator
+- Repo: github.com/vijay455-4444545/AI-Resume-Builder-ATS-Optimized-Resume-Generator              by Vijay Rao 
