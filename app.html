@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Resume Builder – ATS‑Optimized Resume Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #60a5fa;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+    header {
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    section {
+      margin-bottom: 32px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #1f2937;
+      padding-bottom: 6px;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    ul {
+      padding-left: 18px;
+      margin-bottom: 10px;
+    }
+    .tech {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    footer {
+      margin-top: 48px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI Resume Builder</h1>
+      <div class="subtitle">ATS‑Optimized Resume Generator</div>
+    </header>
+
+    <section>
+      <div class="card">
+        <p>
+          An intelligent web application that transforms a user’s experience and target job description
+          into tailored, ATS‑friendly resumes in seconds using large language models.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Features</h2>
+      <div class="card">
+        <ul>
+          <li>Step‑by‑step resume creation flow</li>
+          <li>LLM‑powered bullet optimization and keyword matching</li>
+          <li>ATS scoring and multiple resume templates</li>
+          <li>PDF and DOCX export</li>
+          <li>Containerized with Docker, ready for CI/CD</li>
+        </ul>
+        <div class="tech">
+          <strong>Stack:</strong> Next.js • FastAPI • PostgreSQL • Docker • LLM APIs • CI/CD
+        </div>
+        <div class="actions">
+          <a href="https://github.com/vijay455-4444545/AI-Resume-Builder-ATS-Optimized-Resume-Generator" target="_blank" rel="noopener">
+            GitHub Repo
+          </a>
+          <span>Live Demo: Coming soon</span>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Vijay. AI Resume Builder – ATS‑Optimized Resume Generator.
+    </footer>
+  </div>
+</body>
+</html>
